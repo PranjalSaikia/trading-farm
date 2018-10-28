@@ -1,0 +1,96 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.top-one-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 2vh;
+    margin-left: 7vw;
+    height: 7vh;
+    width: 92vw;
+    background-color: #3C286E;
+    color: grey;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 50px 5fr 2fr;
+}
+
+
+.top-one-nav header{
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-size: 1.2em;
+    color: white
+}
+
+.nav-list-top{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.nav-list-top-ul{
+    list-style-type: none;
+}
+
+.nav-list-top-ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white
+}
+
+.nav-list-top-ul li:hover{
+    color: black;
+}
+
+
+
+.side-nav-one{
+    background-color: #3E3E3E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5vw;
+    height: 100vh;
+}
+
+
+.sidenav-body{
+    position: relative;
+    height: 100%;
+}
+
+
+.sidenav-list{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.sidenav-list li{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+}
+
+
+.sidenav-list li:hover{
+    background-color: white;
+    color: #3E3E3E;
+    cursor: pointer;
+}
+
+.active-nav-bar-item{
+ 
+    color: white;
+}
+
+.sidenav-list li figure{
+    font-size: 2em;
+}

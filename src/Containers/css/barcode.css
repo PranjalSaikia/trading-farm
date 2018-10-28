@@ -1,0 +1,15 @@
+.page-breaks{
+    page-break-after: always;
+    page-break-before: always;
+}
+
+.barcode-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barcode-viewer{
+    overflow-y: scroll;
+    height: 60vh;
+}

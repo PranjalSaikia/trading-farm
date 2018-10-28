@@ -1,0 +1,52 @@
+.trucklist-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    position: relative;
+}
+
+.truck-card{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.truck-name{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.truck-wallet{
+    font-size: 2em;
+    color: cornflowerblue
+}
+
+.truckcard-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.truckcard-footer div{
+    font-size:0.8em;
+    text-align: center;
+    width: 140px;
+}
+
+.bglight{
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.bgcornyellow{
+    background-color: cornsilk  ;
+    padding: 20px;
+}

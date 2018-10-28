@@ -1,0 +1,167 @@
+#truck{
+    font-size: 4em;
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    animation: move 4s;
+    margin-bottom: 20px;
+
+}
+
+.tracker{
+    width: 100%;
+}
+
+.tracker-line{
+    height: 10px;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+
+.tracker-dots{
+    display: flex;
+    flex-direction: row;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -15px;
+    z-index: 2;
+}
+
+
+
+.dot-two{
+    margin-left: 500px;
+}
+
+.dot-three{
+    margin-left: 890px;
+}
+
+.dot-four{
+    margin-left: 1123px;
+}
+
+.active-dot{
+    background-color: green !important;
+    animation: bubble infinite 1s;
+}
+
+@keyframes bubble{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+
+.dot-comb{
+    position: relative;
+    width: 1005;
+}
+
+.dot-comb div i{
+    
+    top: 0;
+    left: 0;
+}
+
+.dot-comb div{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -35px;
+}
+
+@keyframes move {
+    from{
+        margin-right: 100%;
+    }
+    to{
+        margin-left: 89%;
+    }
+}
+
+.truck-road{
+    text-align: right;
+}
+
+.dot h5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -40px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.sub-tracker-line{
+    position: absolute;
+    margin-top:-10px;
+    height: 10px;
+    background-color: green;
+    z-index: 2;
+    /* animation: move1 5s; */
+}
+
+
+.t-0{
+    animation: move0 4s;
+}
+
+.t-1{
+    animation: move1 4s;
+}
+
+.t-2{
+    animation: move2 4s;
+}
+
+.t-3{
+    animation: move3 4s;
+}
+
+@keyframes move0 {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 0%;
+    }
+}
+@keyframes move1 {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 38%;
+    }
+}
+@keyframes move2 {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 66%;
+    }
+}
+
+@keyframes move3 {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 83%;
+    }
+}

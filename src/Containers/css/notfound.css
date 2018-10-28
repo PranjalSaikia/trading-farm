@@ -1,0 +1,47 @@
+.four-body{
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image-holder{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 20vh;
+    margin-left: 18vw;
+
+}
+
+.text-holder
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 20vh;
+    margin-right: 12vw;
+}
+
+.four{
+    font-size: 14em;
+    animation: zoom infinite 2s;
+}
+
+.nnt{
+    font-size: 8em;
+    font-weight: 100;
+    font-style: italic;
+    color: grey;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
